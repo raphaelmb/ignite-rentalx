@@ -4,7 +4,7 @@ import { ensureAuthenticated } from "@shared/infra/http/middlewares/ensureAuthen
 import { Router } from "express";
 import multer from "multer";
 
-import uploadConfig from "../config/upload";
+import uploadConfig from "../../../../config/upload";
 
 const usersRoutes = Router();
 
