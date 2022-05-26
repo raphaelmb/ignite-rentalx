@@ -62,3 +62,4 @@ Should be able to register a rent
 The minimal duration for the rent is 24 hours.
 Should not be able to register a new rent if there is a rent open for the same user.
 Should not be able to register a new rent if there is a rent open for the same car.
+The user should be logged in.
