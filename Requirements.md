@@ -63,3 +63,13 @@ The minimal duration for the rent is 24 hours.
 Should not be able to register a new rent if there is a rent open for the same user.
 Should not be able to register a new rent if there is a rent open for the same car.
 The user should be logged in.
+The car status should be unavailable when the rent is created.
+
+# Car return
+
+If the car is returned in less than 24 hours, the daily rate should be chaged in full.
+After the return, the car should be free for another rent.
+After the return, the user should be free to rent again.
+After the return, the total should be calculated.
+If the car is returned after the expected time, there should a charge proportional to the delay.
+If there is a fine, it should be added to the total.

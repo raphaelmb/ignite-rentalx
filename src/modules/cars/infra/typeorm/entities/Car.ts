@@ -58,9 +58,7 @@ export default class Car {
   created_at: Date;
 
   constructor() {
-    if (!this.id) {
-      this.id = randomUUID();
-      this.available = true;
-    }
+    if (!this.id) this.id = randomUUID();
+    this.available = true;
   }
 }
