@@ -1,11 +1,11 @@
 import dayjs from "dayjs";
 import utc from "dayjs/plugin/utc";
 import AppError from "@shared/errors/AppError";
-import Rental from "../infra/typeorm/entities/Rental";
-import { IRentalsRepository } from "../repositories/IRentalsRepository";
 import { IDateProvider } from "@shared/container/providers/DateProvider/IDateProvider";
 import { inject, injectable } from "tsyringe";
 import { ICarsRepository } from "@modules/cars/repositories/ICarsRepository";
+import { IRentalsRepository } from "@modules/rentals/repositories/IRentalsRepository";
+import Rental from "@modules/rentals/infra/typeorm/entities/Rental";
 
 dayjs.extend(utc);
 

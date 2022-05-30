@@ -73,3 +73,4 @@ After the return, the user should be free to rent again.
 After the return, the total should be calculated.
 If the car is returned after the expected time, there should a charge proportional to the delay.
 If there is a fine, it should be added to the total.
+The user should be logged in.
