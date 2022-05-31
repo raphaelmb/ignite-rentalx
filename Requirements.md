@@ -74,3 +74,11 @@ After the return, the total should be calculated.
 If the car is returned after the expected time, there should a charge proportional to the delay.
 If there is a fine, it should be added to the total.
 The user should be logged in.
+
+# Rental list for user
+
+**FR**
+Should be able to search all rents made by user.
+
+**BL**
+The user should be logged in.
