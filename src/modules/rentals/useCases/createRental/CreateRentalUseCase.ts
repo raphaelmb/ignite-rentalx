@@ -60,7 +60,7 @@ export default class CreateRentalUseCase {
       expected_return_date,
     });
 
-    // await this.carsRepository.updateAvailable(car_id, false);
+    await this.carsRepository.updateAvailable(car_id, false);
 
     return rental;
   }
