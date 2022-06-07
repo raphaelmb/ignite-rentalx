@@ -82,3 +82,14 @@ Should be able to search all rents made by user.
 
 **BL**
 The user should be logged in.
+
+# Recover password
+
+**RF**
+User should be able to recover password by using his email
+User should receive an email with a step by step process to recover password
+User should be able to enter a new password
+
+**NFR**
+User should inform the new password
+The email recovery link should expire in 3 hours
