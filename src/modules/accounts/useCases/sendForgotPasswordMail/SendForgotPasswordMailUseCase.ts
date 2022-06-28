@@ -44,8 +44,7 @@ export default class SendForgotPasswordMailUseCase {
       expires_date,
     });
 
-    // TEMP SOLUTION - FIX .ENV FILE
-    const link = "http://localhost:3333/password/reset?token=";
+    const link = process.env.FORGOT_MAIL_URL;
 
     const variables = {
       name: user.name,
