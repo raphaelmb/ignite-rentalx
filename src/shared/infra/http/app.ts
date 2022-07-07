@@ -12,9 +12,12 @@ import createConnection from "@shared/infra/typeorm";
 import "@shared/container";
 import AppError from "@shared/errors/AppError";
 import upload from "@config/upload";
+import rateLimiter from "./middlewares/rateLimiter";
 
 createConnection();
 const app = express();
+
+app.use(rateLimiter);
 
 app.use(express.json());
 
